@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  gap: 20px 20px;
+  width: 495px;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 10px;
+  border: 0.5px solid rgb(215, 215, 215);
+  height: 80px;
+}
+
+.output {
+  text-align: right;
+  font-size: 40px;
+}
+
+.nums {
+  display: flex;
+  flex-direction: row;
+}
+
+.number__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.sum__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.num__buttons {
+  border: 0.5px solid rgb(215, 215, 215);
+  font-size: 30px;
+  padding: 20px;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.top__buttons {
+  background-color: rgb(200, 200, 200);
+  border: 0.5px solid rgb(180, 180, 180);
+  font-size: 30px;
+  padding: 20px;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sum__button {
+  justify-content: flex-start;
+  border: 0.5px solid rgb(215, 215, 215);
+  width: 100px;
+  font-size: 30px;
+  margin: 10px;
+  background-color: rgb(38, 67, 253);
+  color: white;
+  cursor: pointer;
+}
+
+.clear,
+.dot {
+  border: 0.5px solid rgb(215, 215, 215);
+  font-size: 30px;
+  padding: 20px;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
